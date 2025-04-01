@@ -99,27 +99,20 @@ What makes Leibniz’s formula so fascinating is that it expresses **π using on
 
 (Youtube script)
 
-The appearance of $\pi$ in the Leibniz formula:
+The Leibniz formula:
 
 $$1 - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \dots = \frac{\pi}{4}$$
 
-is surprising because the series itself consists purely of arithmetic—simple fractions with alternating signs. There are no circles, no explicit geometry—so why does $\pi$ appear?
 
-At first glance, the Leibniz series is just an infinite sum of fractions, but its connection to $\pi$ is rooted in trigonometry. The key insight comes from the arctangent function, which describes the angle in a right triangle given the ratio of the opposite and adjacent sides.
+is surprising because it consists purely of arithmetic—simple fractions with alternating signs—yet somehow produces π/4. Without circles or explicit geometry in the formula itself, why does π emerge?
 
-The series arises naturally when we expand the function $\arctan(x)$, which tells us the angle whose tangent is $x$. Specifically, when $x = 1$, the angle is precisely $\frac{\pi}{4}$ (or 45 degrees) radians. This is why adding up fractions in the Leibniz series ultimately gives a result tied to $\pi$. It’s a bridge between an arithmetic sum and a geometric reality.
-
-The key lies in the unit circle. The function $\arctan(x)$ is deeply connected to circular motion and the fundamental properties of right triangles. If you take a unit circle, the angle that corresponds to a slope of 1 is exactly 45 degrees. Since the arctangent function gives us this angle, and the Leibniz series is its Taylor expansion at $x = 1$, the connection to $\pi$ is unavoidable.
-
-Another way to understand the appearance of $\pi$ is through integration. Consider the integral:
+The answer lies in the arctangent function, which describes the angle in a right triangle given the ratio of the opposite and adjacent sides. The Leibniz series is actually the Taylor expansion of arctan(x) evaluated at x=1, where the angle equals precisely π/4 (or 45 degrees).
+This connection becomes clear through integration. The integral:
 
 $$\int_0^1 \frac{dx}{1 + x^2}$$
 
-This integral represents the area under a curve, but surprisingly, its result is directly tied to the arctangent function. Evaluating it at $x = 1$ gives exactly $\frac{\pi}{4}$.
+represents the area under a curve and equals arctan(1) = π/4. When we expand the fraction inside as a geometric series, we recover the same alternating sum seen in Leibniz's formula.
+The key insight involves the unit circle: arctan(x) measures the angle corresponding to a given slope. When that slope is 1, the angle is exactly 45 degrees on the unit circle. So this simple sum of fractions is secretly measuring angular changes along a circle.
+This reveals the deep unity of mathematics—where a pattern of simple fractions encodes the essence of a perfect circle, and π appears unexpectedly at the intersection of algebra and geometry.
 
-What makes this remarkable is that when we expand the fraction inside the integral as a geometric series, we recover the same alternating sum seen in Leibniz’s formula. This means that the sum of simple fractions is secretly measuring the accumulated effect of tiny changes in an angle along the unit circle.
-
-What makes the Leibniz formula so striking is that it reveals  without any obvious reference to circles. There are no circumferences or diameters—just an infinite sum of fractions. And yet, when followed to its logical conclusion, the connection to geometry becomes undeniable.
-
-This is one of the great surprises in mathematics: fundamental constants like $\pi$ appear in places we least expect. The interplay between infinite series, integration, and geometry showcases the deep unity of mathematics, where a simple pattern of numbers encodes the essence of a perfect circle.
 
