@@ -1,5 +1,5 @@
 
-# Why Does π Appear in the Leibniz Formula?
+# Why Does π Appear in the Leibniz Formula (Series)?
 
 The **Leibniz formula** for π is given by:
 
