@@ -121,5 +121,5 @@ What makes this remarkable is that when we expand the fraction inside the integr
 
 What makes the Leibniz formula so striking is that it reveals  without any obvious reference to circles. There are no circumferences or diameters—just an infinite sum of fractions. And yet, when followed to its logical conclusion, the connection to geometry becomes undeniable.
 
-This is one of the great surprises in mathematics: fundamental constants like  appear in places we least expect. The interplay between infinite series, integration, and geometry showcases the deep unity of mathematics, where a simple pattern of numbers encodes the essence of a perfect circle.
+This is one of the great surprises in mathematics: fundamental constants like $\pi$ appear in places we least expect. The interplay between infinite series, integration, and geometry showcases the deep unity of mathematics, where a simple pattern of numbers encodes the essence of a perfect circle.
 
