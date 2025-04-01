@@ -103,15 +103,15 @@ The appearance of $\pi$ in the Leibniz formula:
 
 $$1 - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \dots = \frac{\pi}{4}$$
 
-is surprising because the series itself consists purely of arithmetic—simple fractions with alternating signs. There are no circles, no explicit geometry—so why does  appear?
+is surprising because the series itself consists purely of arithmetic—simple fractions with alternating signs. There are no circles, no explicit geometry—so why does $\pi$ appear?
 
 At first glance, the Leibniz series is just an infinite sum of fractions, but its connection to $\pi$ is rooted in trigonometry. The key insight comes from the arctangent function, which describes the angle in a right triangle given the ratio of the opposite and adjacent sides.
 
-The series arises naturally when we expand the function $\arctan(x)$, which tells us the angle whose tangent is . Specifically, when , the angle is precisely  or  radians. This is why adding up fractions in the Leibniz series ultimately gives a result tied to . It’s a bridge between an arithmetic sum and a geometric reality.
+The series arises naturally when we expand the function $\arctan(x)$, which tells us the angle whose tangent is $x$. Specifically, when $x = 1$, the angle is precisely $\frac{\pi}{4}$ (or 45 degrees) radians. This is why adding up fractions in the Leibniz series ultimately gives a result tied to $\pi$. It’s a bridge between an arithmetic sum and a geometric reality.
 
-The key lies in the unit circle. The function $\arctan(x)$ is deeply connected to circular motion and the fundamental properties of right triangles. If you take a unit circle (a circle with radius 1), the angle that corresponds to a slope of 1 (meaning the opposite and adjacent sides of a right triangle are equal) is exactly . Since the arctangent function gives us this angle, and the Leibniz series is its expansion at , the connection to  is unavoidable.
+The key lies in the unit circle. The function $\arctan(x)$ is deeply connected to circular motion and the fundamental properties of right triangles. If you take a unit circle (a circle with radius 1), the angle that corresponds to a slope of 1 (meaning the opposite and adjacent sides of a right triangle are equal) is exactly . Since the arctangent function gives us this angle, and the Leibniz series is its Taylor expansion at $X = 1$, the connection to $\pi$ is unavoidable.
 
-Another way to understand the appearance of  is through integration. Consider the integral:
+Another way to understand the appearance of $\pi$ is through integration. Consider the integral:
 
 $$\int_0^1 \frac{dx}{1 + x^2}$$
 
