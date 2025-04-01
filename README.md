@@ -109,7 +109,7 @@ At first glance, the Leibniz series is just an infinite sum of fractions, but it
 
 The series arises naturally when we expand the function arctan(x), which tells us the angle whose tangent is . Specifically, when , the angle is precisely  or  radians. This is why adding up fractions in the Leibniz series ultimately gives a result tied to . It’s a bridge between an arithmetic sum and a geometric reality.
 
-The key lies in the unit circle. The function arctan(x) is deeply connected to circular motion and the fundamental properties of right triangles. If you take a unit circle (a circle with radius 1), the angle that corresponds to a slope of 1 (meaning the opposite and adjacent sides of a right triangle are equal) is exactly . Since the arctangent function gives us this angle, and the Leibniz series is its expansion at , the connection to  is unavoidable.
+The key lies in the unit circle. The function $\arctan(x)$ is deeply connected to circular motion and the fundamental properties of right triangles. If you take a unit circle (a circle with radius 1), the angle that corresponds to a slope of 1 (meaning the opposite and adjacent sides of a right triangle are equal) is exactly . Since the arctangent function gives us this angle, and the Leibniz series is its expansion at , the connection to  is unavoidable.
 
 Another way to understand the appearance of  is through integration. Consider the integral:
 
