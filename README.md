@@ -28,10 +28,6 @@ Setting **$x = 1$** gives:
 
 Since we know that **$\arctan(1) = \frac{\pi}{4}$**, the Leibniz formula follows directly.
 
-![leibniz_convergence.gif](media/leibniz_convergence.gif)  
-
-To plot the curve in Python, use the following code, [View `leibniz-animation.py`](Python/leibniz-animation.py).  
-
 
 ## 2. Why is π in arctan(1)?
 The arctangent function is closely tied to the **unit circle**. The **angle** whose tangent is 1 in a right triangle is exactly **$45^\circ$** or **$\frac{\pi}{4}$** radians. Thus, when summing the infinite series, π naturally appears.
@@ -90,6 +86,11 @@ Thus, we recover the **Leibniz formula**:
 This integral approach provides an elegant connection between **π** and **infinite series**, showing how the Leibniz formula naturally arises from calculus! 
 
 ## 4. Unexpected Simplicity
+
+![leibniz_convergence.gif](media/leibniz_convergence.gif)  
+
+To plot the curve in Python, use the following code, [View `leibniz-animation.py`](Python/leibniz-animation.py).  
+
 What makes Leibniz’s formula so fascinating is that it expresses **π using only odd fractions**—no circles, no geometry, just pure numbers! This is a perfect example of **π appearing unexpectedly** in a seemingly unrelated setting.
 
 ---
