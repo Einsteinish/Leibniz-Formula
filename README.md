@@ -43,6 +43,9 @@ Another way to understand the Leibniz series is through an integral representati
 \int_0^1 \frac{dx}{1 + x^2}
 ```
 
+![riemann_area_pi4.gif](media/riemann_area_pi4.gif)  
+
+To plot the curve in Python, use the following code, [View `riemann_area_pi4.py`](Python/riemann_area_pi4.py).  
 This integral equals:
 
 ```math
