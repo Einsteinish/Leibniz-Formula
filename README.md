@@ -105,7 +105,7 @@ $$1 - \frac{1}{3} + \frac{1}{5} - \frac{1}{7} + \dots = \frac{\pi}{4}$$
 
 is surprising because the series itself consists purely of arithmetic—simple fractions with alternating signs. There are no circles, no explicit geometry—so why does  appear?
 
-At first glance, the Leibniz series is just an infinite sum of fractions, but its connection to  is rooted in trigonometry. The key insight comes from the arctangent function, which describes the angle in a right triangle given the ratio of the opposite and adjacent sides.
+At first glance, the Leibniz series is just an infinite sum of fractions, but its connection to $\pi$ is rooted in trigonometry. The key insight comes from the arctangent function, which describes the angle in a right triangle given the ratio of the opposite and adjacent sides.
 
 The series arises naturally when we expand the function arctan(x), which tells us the angle whose tangent is . Specifically, when , the angle is precisely  or  radians. This is why adding up fractions in the Leibniz series ultimately gives a result tied to . It’s a bridge between an arithmetic sum and a geometric reality.
 
